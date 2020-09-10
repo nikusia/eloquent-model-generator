@@ -1,3 +1,5 @@
+# Temporary fork for Laravel 8 update.
+
 # Eloquent Model Generator
 
 Eloquent Model Generator is a tool based on [Code Generator](https://github.com/krlove/code-generator) for generating Eloquent models.
