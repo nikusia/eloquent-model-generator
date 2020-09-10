@@ -3,7 +3,7 @@
 namespace nikusia\EloquentModelGenerator;
 
 use nikusia\EloquentModelGenerator\Exception\GeneratorException;
-use nikusia\CodeGenerator\Model\ClassModel;
+use Krlove\CodeGenerator\Model\ClassModel;
 
 /**
  * Class Generator

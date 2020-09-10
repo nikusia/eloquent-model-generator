@@ -2,7 +2,7 @@
 
 namespace nikusia\EloquentModelGenerator\Model;
 
-use nikusia\CodeGenerator\Model\ClassModel;
+use Krlove\CodeGenerator\Model\ClassModel;
 
 /**
  * Class EloquentModel

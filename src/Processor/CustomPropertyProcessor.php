@@ -2,8 +2,8 @@
 
 namespace nikusia\EloquentModelGenerator\Processor;
 
-use nikusia\CodeGenerator\Model\DocBlockModel;
-use nikusia\CodeGenerator\Model\PropertyModel;
+use Krlove\CodeGenerator\Model\DocBlockModel;
+use Krlove\CodeGenerator\Model\PropertyModel;
 use nikusia\EloquentModelGenerator\Config;
 use nikusia\EloquentModelGenerator\Model\EloquentModel;
 

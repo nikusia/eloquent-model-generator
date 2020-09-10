@@ -9,9 +9,9 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany as EloquentBelongsToMan
 use Illuminate\Database\Eloquent\Relations\HasMany as EloquentHasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne as EloquentHasOne;
 use Illuminate\Support\Str;
-use nikusia\CodeGenerator\Model\DocBlockModel;
-use nikusia\CodeGenerator\Model\MethodModel;
-use nikusia\CodeGenerator\Model\VirtualPropertyModel;
+use Krlove\CodeGenerator\Model\DocBlockModel;
+use Krlove\CodeGenerator\Model\MethodModel;
+use Krlove\CodeGenerator\Model\VirtualPropertyModel;
 use nikusia\EloquentModelGenerator\Config;
 use nikusia\EloquentModelGenerator\Exception\GeneratorException;
 use nikusia\EloquentModelGenerator\Helper\EmgHelper;

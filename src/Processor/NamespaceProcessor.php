@@ -2,7 +2,7 @@
 
 namespace nikusia\EloquentModelGenerator\Processor;
 
-use nikusia\CodeGenerator\Model\NamespaceModel;
+use Krlove\CodeGenerator\Model\NamespaceModel;
 use nikusia\EloquentModelGenerator\Config;
 use nikusia\EloquentModelGenerator\Model\EloquentModel;
 
