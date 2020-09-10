@@ -1,6 +1,6 @@
 <?php
 
-namespace Krlove\EloquentModelGenerator\Processor;
+namespace nikusia\EloquentModelGenerator\Processor;
 
 use Doctrine\DBAL\Schema\Table;
 use Illuminate\Database\DatabaseManager;
@@ -9,22 +9,22 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany as EloquentBelongsToMan
 use Illuminate\Database\Eloquent\Relations\HasMany as EloquentHasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne as EloquentHasOne;
 use Illuminate\Support\Str;
-use Krlove\CodeGenerator\Model\DocBlockModel;
-use Krlove\CodeGenerator\Model\MethodModel;
-use Krlove\CodeGenerator\Model\VirtualPropertyModel;
-use Krlove\EloquentModelGenerator\Config;
-use Krlove\EloquentModelGenerator\Exception\GeneratorException;
-use Krlove\EloquentModelGenerator\Helper\EmgHelper;
-use Krlove\EloquentModelGenerator\Model\BelongsTo;
-use Krlove\EloquentModelGenerator\Model\BelongsToMany;
-use Krlove\EloquentModelGenerator\Model\EloquentModel;
-use Krlove\EloquentModelGenerator\Model\HasMany;
-use Krlove\EloquentModelGenerator\Model\HasOne;
-use Krlove\EloquentModelGenerator\Model\Relation;
+use nikusia\CodeGenerator\Model\DocBlockModel;
+use nikusia\CodeGenerator\Model\MethodModel;
+use nikusia\CodeGenerator\Model\VirtualPropertyModel;
+use nikusia\EloquentModelGenerator\Config;
+use nikusia\EloquentModelGenerator\Exception\GeneratorException;
+use nikusia\EloquentModelGenerator\Helper\EmgHelper;
+use nikusia\EloquentModelGenerator\Model\BelongsTo;
+use nikusia\EloquentModelGenerator\Model\BelongsToMany;
+use nikusia\EloquentModelGenerator\Model\EloquentModel;
+use nikusia\EloquentModelGenerator\Model\HasMany;
+use nikusia\EloquentModelGenerator\Model\HasOne;
+use nikusia\EloquentModelGenerator\Model\Relation;
 
 /**
  * Class RelationProcessor
- * @package Krlove\EloquentModelGenerator\Processor
+ * @package nikusia\EloquentModelGenerator\Processor
  */
 class RelationProcessor implements ProcessorInterface
 {

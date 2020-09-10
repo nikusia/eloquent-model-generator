@@ -1,13 +1,13 @@
 <?php
 
-namespace Krlove\EloquentModelGenerator\Processor;
+namespace nikusia\EloquentModelGenerator\Processor;
 
-use Krlove\EloquentModelGenerator\Config;
-use Krlove\EloquentModelGenerator\Model\EloquentModel;
+use nikusia\EloquentModelGenerator\Config;
+use nikusia\EloquentModelGenerator\Model\EloquentModel;
 
 /**
  * Interface ProcessorInterface
- * @package Krlove\EloquentModelGenerator\Processor
+ * @package nikusia\EloquentModelGenerator\Processor
  */
 interface ProcessorInterface
 {

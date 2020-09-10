@@ -1,17 +1,17 @@
 <?php
 
-namespace Krlove\EloquentModelGenerator\Command;
+namespace nikusia\EloquentModelGenerator\Command;
 
 use Illuminate\Config\Repository as AppConfig;
 use Illuminate\Console\Command;
-use Krlove\EloquentModelGenerator\Config;
-use Krlove\EloquentModelGenerator\Generator;
+use nikusia\EloquentModelGenerator\Config;
+use nikusia\EloquentModelGenerator\Generator;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 
 /**
  * Class GenerateModelCommand
- * @package Krlove\EloquentModelGenerator\Command
+ * @package nikusia\EloquentModelGenerator\Command
  */
 class GenerateModelCommand extends Command
 {

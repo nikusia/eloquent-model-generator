@@ -1,14 +1,14 @@
 <?php
 
-namespace Krlove\EloquentModelGenerator;
+namespace nikusia\EloquentModelGenerator;
 
-use Krlove\EloquentModelGenerator\Exception\GeneratorException;
-use Krlove\EloquentModelGenerator\Model\EloquentModel;
-use Krlove\EloquentModelGenerator\Processor\ProcessorInterface;
+use nikusia\EloquentModelGenerator\Exception\GeneratorException;
+use nikusia\EloquentModelGenerator\Model\EloquentModel;
+use nikusia\EloquentModelGenerator\Processor\ProcessorInterface;
 
 /**
  * Class EloquentModelBuilder
- * @package Krlove\EloquentModelGenerator
+ * @package nikusia\EloquentModelGenerator
  */
 class EloquentModelBuilder
 {

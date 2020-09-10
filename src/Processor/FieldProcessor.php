@@ -1,18 +1,18 @@
 <?php
 
-namespace Krlove\EloquentModelGenerator\Processor;
+namespace nikusia\EloquentModelGenerator\Processor;
 
 use Illuminate\Database\DatabaseManager;
-use Krlove\CodeGenerator\Model\DocBlockModel;
-use Krlove\CodeGenerator\Model\PropertyModel;
-use Krlove\CodeGenerator\Model\VirtualPropertyModel;
-use Krlove\EloquentModelGenerator\Config;
-use Krlove\EloquentModelGenerator\Model\EloquentModel;
-use Krlove\EloquentModelGenerator\TypeRegistry;
+use nikusia\CodeGenerator\Model\DocBlockModel;
+use nikusia\CodeGenerator\Model\PropertyModel;
+use nikusia\CodeGenerator\Model\VirtualPropertyModel;
+use nikusia\EloquentModelGenerator\Config;
+use nikusia\EloquentModelGenerator\Model\EloquentModel;
+use nikusia\EloquentModelGenerator\TypeRegistry;
 
 /**
  * Class FieldProcessor
- * @package Krlove\EloquentModelGenerator\Processor
+ * @package nikusia\EloquentModelGenerator\Processor
  */
 class FieldProcessor implements ProcessorInterface
 {

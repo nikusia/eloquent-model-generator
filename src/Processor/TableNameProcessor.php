@@ -1,18 +1,18 @@
 <?php
 
-namespace Krlove\EloquentModelGenerator\Processor;
+namespace nikusia\EloquentModelGenerator\Processor;
 
-use Krlove\CodeGenerator\Model\ClassNameModel;
-use Krlove\CodeGenerator\Model\DocBlockModel;
-use Krlove\CodeGenerator\Model\PropertyModel;
-use Krlove\CodeGenerator\Model\UseClassModel;
-use Krlove\EloquentModelGenerator\Config;
-use Krlove\EloquentModelGenerator\Helper\EmgHelper;
-use Krlove\EloquentModelGenerator\Model\EloquentModel;
+use nikusia\CodeGenerator\Model\ClassNameModel;
+use nikusia\CodeGenerator\Model\DocBlockModel;
+use nikusia\CodeGenerator\Model\PropertyModel;
+use nikusia\CodeGenerator\Model\UseClassModel;
+use nikusia\EloquentModelGenerator\Config;
+use nikusia\EloquentModelGenerator\Helper\EmgHelper;
+use nikusia\EloquentModelGenerator\Model\EloquentModel;
 
 /**
  * Class TableNameProcessor
- * @package Krlove\EloquentModelGenerator\Processor
+ * @package nikusia\EloquentModelGenerator\Processor
  */
 class TableNameProcessor implements ProcessorInterface
 {

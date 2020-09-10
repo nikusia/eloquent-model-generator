@@ -11,7 +11,7 @@ Step 2. Register `GeneratorServiceProvider`:
 ```php
 'providers' => [
     // ...
-    Krlove\EloquentModelGenerator\Provider\GeneratorServiceProvider::class,
+    nikusia\EloquentModelGenerator\Provider\GeneratorServiceProvider::class,
 ];
 ```
 If you are using Laravel version 5.5 or higher this step can be omitted since this project supports [Package Discovery](https://laravel.com/docs/5.5/packages#package-discovery) feature.

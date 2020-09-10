@@ -1,12 +1,12 @@
 <?php
 
-namespace Krlove\EloquentModelGenerator;
+namespace nikusia\EloquentModelGenerator;
 
 use Illuminate\Database\DatabaseManager;
 
 /**
  * Class TypeRegistry
- * @package Krlove\EloquentModelGenerator
+ * @package nikusia\EloquentModelGenerator
  */
 class TypeRegistry
 {

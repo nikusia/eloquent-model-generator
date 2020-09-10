@@ -1,21 +1,21 @@
 <?php
 
-namespace Krlove\EloquentModelGenerator\Provider;
+namespace nikusia\EloquentModelGenerator\Provider;
 
 use Illuminate\Support\ServiceProvider;
-use Krlove\EloquentModelGenerator\Command\GenerateModelCommand;
-use Krlove\EloquentModelGenerator\EloquentModelBuilder;
-use Krlove\EloquentModelGenerator\Processor\CustomPrimaryKeyProcessor;
-use Krlove\EloquentModelGenerator\Processor\CustomPropertyProcessor;
-use Krlove\EloquentModelGenerator\Processor\ExistenceCheckerProcessor;
-use Krlove\EloquentModelGenerator\Processor\FieldProcessor;
-use Krlove\EloquentModelGenerator\Processor\NamespaceProcessor;
-use Krlove\EloquentModelGenerator\Processor\RelationProcessor;
-use Krlove\EloquentModelGenerator\Processor\TableNameProcessor;
+use nikusia\EloquentModelGenerator\Command\GenerateModelCommand;
+use nikusia\EloquentModelGenerator\EloquentModelBuilder;
+use nikusia\EloquentModelGenerator\Processor\CustomPrimaryKeyProcessor;
+use nikusia\EloquentModelGenerator\Processor\CustomPropertyProcessor;
+use nikusia\EloquentModelGenerator\Processor\ExistenceCheckerProcessor;
+use nikusia\EloquentModelGenerator\Processor\FieldProcessor;
+use nikusia\EloquentModelGenerator\Processor\NamespaceProcessor;
+use nikusia\EloquentModelGenerator\Processor\RelationProcessor;
+use nikusia\EloquentModelGenerator\Processor\TableNameProcessor;
 
 /**
  * Class GeneratorServiceProvider
- * @package Krlove\EloquentModelGenerator\Provider
+ * @package nikusia\EloquentModelGenerator\Provider
  */
 class GeneratorServiceProvider extends ServiceProvider
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace Krlove\EloquentModelGenerator\Processor;
+namespace nikusia\EloquentModelGenerator\Processor;
 
-use Krlove\CodeGenerator\Model\NamespaceModel;
-use Krlove\EloquentModelGenerator\Config;
-use Krlove\EloquentModelGenerator\Model\EloquentModel;
+use nikusia\CodeGenerator\Model\NamespaceModel;
+use nikusia\EloquentModelGenerator\Config;
+use nikusia\EloquentModelGenerator\Model\EloquentModel;
 
 /**
  * Class NamespaceProcessor
- * @package Krlove\EloquentModelGenerator\Processor
+ * @package nikusia\EloquentModelGenerator\Processor
  */
 class NamespaceProcessor implements ProcessorInterface
 {
