@@ -17,7 +17,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Krlove\\EloquentModelGenerator\\Provider\\GeneratorServiceProvider"
+                "nikusia\\EloquentModelGenerator\\Provider\\GeneratorServiceProvider"
             ]
         }
     }
